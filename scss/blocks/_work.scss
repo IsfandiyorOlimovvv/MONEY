@@ -1,0 +1,38 @@
+.work{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work__section{
+  padding: 100px;
+}
+
+.work__content-title{
+  margin-bottom: 20px;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: left;
+  color: var(--black-color);
+}
+
+.work__text{
+  max-width: 500px;
+  margin-bottom: 30px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: var(--black-color);
+}
+
+.work__content{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--black-color);
+}

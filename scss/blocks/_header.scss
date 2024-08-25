@@ -1,0 +1,65 @@
+.site__header{
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: var(--white-color);
+}
+
+body{
+  background-color: var(--white-color);
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__link{
+  color:var(--black-color);
+
+  &:hover{
+    color: var(--purple-color);
+  }
+}
+
+.header__btn{
+  width: 119px;
+  height: 45px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.78px;
+  text-align: center;
+  color:var(--white-color);
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--purple-color);
+
+  &:hover{
+    color: var(--purple-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--purple-color);
+  }
+}
+
+.header__moon-btn{
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid var(--black-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
